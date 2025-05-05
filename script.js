@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const musicToggle = document.getElementById('music-toggle');
     const playIcon = document.getElementById('play-icon');
     const pauseIcon = document.getElementById('pause-icon');
-    const audio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3');
+    const audio = new Audio('asset/songs.mp3');
     if (musicToggle && playIcon && pauseIcon) {
         musicToggle.addEventListener('click', () => {
             if (audio.paused) {
