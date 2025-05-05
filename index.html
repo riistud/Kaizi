@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaiziDEV Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">KaiziDeveloper</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-circle"></div>
+                <h1>KaiziDeveloper</h1>
+                <h2>Script Developer | Creator</h2>
+                <p>Creating beautiful and functional web experiences & Script Bot Whatsapp</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+            <div class="music-player">
+                <button id="music-toggle" class="music-btn">
+                    <i class="fas fa-play" id="play-icon"></i>
+                    <i class="fas fa-pause" id="pause-icon" style="display: none;"></i>
+                    <span>Play Music</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate full stack developer with expertise in creating robust web applications. With over 3 years of experience, I specialize in developing innovative solutions.</p>
+                    <p>My journey began during my computer science studies, and I've been continuously learning new technologies.</p>
+                    <p>When not coding, I enjoy hiking, reading tech blogs, and experimenting with new frameworks.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>3+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>1.5M+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Script Bug Genjutsu</h3>
+                        <p>A WhatsApp bot script modified to cause target phone crashes.</p>
+                        <div class="project-tech">
+                            <span>Script Bot Whatsapp</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Script Bug Athena Crasher</h3>
+                        <p>Advanced WhatsApp bot script with new crash protocols.</p>
+                        <div class="project-tech">
+                            <span>Script Bot WhatsApp</span>
+                            <span>Node.js</span>
+                            <span>JavaScript</span>
+                            <span>Latest Project</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline"><i class="fas fa-eye"></i> View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Programming Skills</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <h3>Node.js</h3>
+                    <div class="skill-level">
+                        <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-php"></i></div>
+                    <h3>PHP</h3>
+                    <div class="skill-level">
+                        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                        <span>85%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML</h3>
+                    <div class="skill-level">
+                        <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-level">
+                        <div class="progress-bar"><div class="progress" style="width: 100%"></div></div>
+                        <span>100%</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python</h3>
+                    <div class="skill-level">
+                        <div class="progress-bar"><div class="progress" style="width: 88%"></div></div>
+                        <span>88%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners" class="partners">
+        <div class="container">
+            <div class="section-header">
+                <h2>Partners & Teams</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="partners-content">
+                <div class="partners-list">
+                    <h3>Partners</h3>
+                    <ul>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>RiiCODE</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Swipper</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Tama Ryuichi</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Vampire Sagara</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Xatanical</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>DrayXD</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Syroo</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>PermenMD</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Delta Tech</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Daffa Developer</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>PutzxxOfficial</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>AlpinDeveloper</span></div></li>
+                        <li><div class="partner-item"><i class="fas fa-user-tie"></i><span>Aima Paradox</span></div></li>
+                    </ul>
+                </div>
+                <div class="teams-list">
+                    <h3>Teams</h3>
+                    <ul>
+                        <li><div class="team-item"><i class="fas fa-users"></i><span>Dark Angel Team</span></div></li>
+                        <li><div class="team-item"><i class="fas fa-users"></i><span>Off All Re`D</span></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Me</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>Reach out through these platforms for projects or opportunities.</p>
+                    <div class="contact-links">
+                        <a href="https://wa.me/1234567890" class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>Contact via WhatsApp</span>
+                        </a>
+                        <a href="https://instagram.com/johndoe" class="contact-item">
+                            <i class="fab fa-instagram"></i>
+                            <span>Follow on Instagram</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2025 KaiziDEV. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> by RiiCODE</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
